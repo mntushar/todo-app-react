@@ -1,0 +1,6 @@
+Package    Version
+---------- -------
+nodeenv    1.6.0
+pip        21.2.2
+setuptools 57.4.0
+wheel      0.36.2

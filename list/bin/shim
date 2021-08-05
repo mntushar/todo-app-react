@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH='/home/mnt/project/react-js/todo-list/list/lib/node_modules'
+export NPM_CONFIG_PREFIX='/home/mnt/project/react-js/todo-list/list'
+export npm_config_prefix='/home/mnt/project/react-js/todo-list/list'
+exec 'list/bin/node' "$@"
