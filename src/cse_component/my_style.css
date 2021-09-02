@@ -1,0 +1,120 @@
+/* body style section */
+body {
+  box-sizing:border-box;
+  height: auto;
+  margin: 0px;
+  font-size: 15px !important;
+}
+
+/* heading style section */
+.headingStyle {
+  background-color: purple;
+  text-align: center;
+  font-size: 50px;
+  color: aliceblue;
+  margin-top: 0px;
+  margin-bottom: 10px;
+
+}
+
+
+/* card style section */
+.myCard {
+  background-color: yellowgreen;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px gray;
+  border-radius: 5px;
+  margin: 30px;
+  padding: 10px;
+  width: 390px;
+  display: inline-block;
+}
+
+
+.cardTitle {
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 5px;
+
+}
+
+
+.cardDescription {
+  box-sizing: border-box;
+  text-align: justify;
+  margin-bottom: 5px;
+  
+}
+
+
+.cardFooter {
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+/* search style section */
+.searchStyle {
+  width: 350px;
+  height: 10px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-left: 885px;
+  border-radius: 2ch;
+ 
+}
+
+
+/*Navbar style section*/
+.myNavbar {
+  font-size: 18px;
+}
+
+
+.myNavbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.myNavbar li {
+  float: left;
+}
+
+
+.myNav {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.mySelected {
+  background-color: #04AA6D;
+}
+
+
+.myNav:hover {
+  background-color: gray;
+  color:white;
+}
+
+
+/* login form style */
+.my_form{
+  width: 600px !important;
+  height: auto;
+  box-sizing: border-box;
+}
+
+
+
+

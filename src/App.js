@@ -1,23 +1,17 @@
-import react  from 'react';
-import HeardTitle from './component/heardTitle'
-import Card from './component/card'
-import Card2 from './component/card2'
-import Data from './data/card_data.json'
+import MyRouter from './component/my_router'
+import './cse_component/my_style.css'
+import HeardTitle from '../src/component/heardTitle';
+import './App.scss';
 
 
 export default function App() {
-  return (
-    <div className='body'>
-      <HeardTitle />
+    return (
+    
       <div>
-        <Card />
+        <HeardTitle />
+        <MyRouter />
       </div>
-      <div>
-        <Card2 />
-      </div>
-      
-    </div>
-  );
+    );
 }
 
 
